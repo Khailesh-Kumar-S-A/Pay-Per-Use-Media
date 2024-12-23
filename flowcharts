@@ -1,0 +1,90 @@
+ +--------------+      +------------------+      +------------------+
+ |    Users     | ---> |   Web Interface  | ---> | Blockchain (ETH) |
+ +--------------+      +------------------+      +------------------+
+                                        |
+                                   +------------+
+                                   | Smart      |
+                                   | Contract   |
+                                   +------------+
+                                        |
+                               +---------------------+
+                               | Content Providers   |
+                               | Upload Media & Set  |
+                               | Pricing             |
+                               +---------------------+
+
+
+
+
+
+
+
+ +-----------------+    +----------------+    +-------------------+
+ |   User Selects  |--->| Pay via Crypto |--->| Content Accessed  |
+ |    Content      |    |  (Smart Contract)|    | (After Payment)   |
+ +-----------------+    +----------------+    +-------------------+
+           |
+   +-------------------+
+   | Payment Verified  |
+   | (Smart Contract)  |
+   +-------------------+
+
+
+
+
+
+
+
+
++--------------------+
+|  User Selects      |
+|  Content (Choose)  |
++--------------------+
+           |
+   +-----------------+
+   | Payment Made    |
+   | (Smart Contract)|
+   +-----------------+
+           |
+ +-------------------+
+ | Payment Verified  |
+ | (Sufficient?)     |
+ +-------------------+
+           |
+ +-------------------+
+ | Access Content    |
+ | (User Gains Access)|
+ +-------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
++--------------+      +------------------+      +-------------------+
+|    User      | ---> |  Web Interface   | ---> | Blockchain Network |
+| (Makes Payment)   |   (Sends to Smart  |      | (Transaction Logs) |
++--------------+      |    Contract)     |      +-------------------+
+                       +------------------+
+
+
+
+
+
+
+
+
+
+
+
++---------------------+    +---------------------+    +----------------------+
+| Content Provider    |--->| Upload Media & Set  |--->| Payment via Smart    |
+| Uploads Media       |    | Pricing (Smart Contract)|  | Contract (User Pays)  |
++---------------------+    +---------------------+    +----------------------+
