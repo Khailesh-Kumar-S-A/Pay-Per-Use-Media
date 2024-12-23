@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay-Per-Use Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pay-Per-Use Media</h1>
+        <p>Pay for individual media content using Ethereum.</p>
+    </header>
+
+    <section>
+        <h2>Available Content</h2>
+        <div id="content-list">
+            <div class="content-item">
+                <img src="sample-media.jpg" alt="Content 1">
+                <h3>Movie Title 1</h3>
+                <button onclick="payForContent('movie1')">Pay 0.05 ETH</button>
+            </div>
+            <div class="content-item">
+                <img src="sample-media.jpg" alt="Content 2">
+                <h3>Movie Title 2</h3>
+                <button onclick="payForContent('movie2')">Pay 0.03 ETH</button>
+            </div>
+            <!-- Add more content items as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>Powered by Blockchain</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
